@@ -24,6 +24,7 @@ GOTROOT=''
 tar -xf exploits.tar.gz
 rm exploits.tar.gz
 cd exploits
+chmod 777 *
 
 if [ $GOTROOT -z ] 2> /dev/null
 then
